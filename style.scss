@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+// #hero-container {
+//   margin-bottom: 15rem;
+//   position: relative;
+//   #hero-section {
+//     .col-6 {
+//       #see-work-btn {
+//         border-radius: 50px;
+//         width: 11rem;
+//       }
+//     }
+//     h1 {
+//       font-size: 4rem;
+//     }
+//   }
+//   #bg-object {
+//     position: absolute;
+//     top: 0px;
+//     justify-content: center;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     font-size: 0px;
+//     #hero-img {
+//       display: flex;
+//       position: inherit;
+//       width: 500px;
+//       height: 350px;
+//       justify-content: center;
+//       top: 4rem;
+//       z-index: -1;
+//     }
+//     h1 {
+//       display: inline-block;
+//       position: relative;
+//       font-size: 160px;
+//       right: 5rem;
+//       top: 22rem;
+//       // text-align: center;
+//       // justify-content: center;
+//       white-space: nowrap;
+//       opacity: 0.1;
+//       z-index: -2;
+//     }
+//   }
+// }
+#card-group {
+  display: flex;
+  justify-content: center;
+}
+#case-study {
+  background: #83c4da;
+  z-index: -2;
+  position: relative;
+  #backg-items {
+    position: relative;
+    img {
+      position: absolute;
+    }
+  }
+  #items {
+    position: relative;
+    .case-items {
+      img {
+        margin-bottom: -12rem;
+      }
+      h1 {
+        padding-top: 5rem;
+      }
+      p {
+        margin: 0 auto;
+        padding: 2rem;
+        width: 50%;
+      }
+    }
+  }
+}
+.right-top-wave {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.left-bottom-wave {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.small-orange-circle {
+  position: absolute;
+  left: 10%;
+  bottom: 40%;
+}
+.blue-cicle {
+  position: absolute;
+  z-index: -1;
+  left: 20%;
+  bottom: 18%;
+}
+.orange-circle {
+  position: absolute;
+  z-index: -1;
+  right: 10%;
+  bottom: 0%;
+}
+#Ricky {
+  padding-top: 5rem;
+  z-index: 100;
+}
+// .backgroud-object {
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   opacity: 0.7;
+//   background-color: #0057e3;
+// }
+// .hero-section {
+//   z-index: 9;
+//   margin: 30px;
+// }
+// @keyframes example {
+//   from {
+//     background-color: red;
+//   }
+//   to {
+//     background-color: yellow;
+//   }
+// }
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: aqua;
+  }
+  100% {
+    background-color: green;
+  }
+}
+.div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: -2s;
+  animation-direction: reverse;
+  transition: linear;
+}
+#develop {
+  background-color: black;
+  background-image: url(/img/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

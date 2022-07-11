@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial;
+}
+
+#card-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#case-study {
+  background: #83c4da;
+  z-index: -2;
+  position: relative;
+}
+
+#case-study #backg-items {
+  position: relative;
+}
+
+#case-study #backg-items img {
+  position: absolute;
+}
+
+#case-study #items {
+  position: relative;
+}
+
+#case-study #items .case-items img {
+  margin-bottom: -12rem;
+}
+
+#case-study #items .case-items h1 {
+  padding-top: 5rem;
+}
+
+#case-study #items .case-items p {
+  margin: 0 auto;
+  padding: 2rem;
+  width: 50%;
+}
+
+.right-top-wave {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.left-bottom-wave {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.small-orange-circle {
+  position: absolute;
+  left: 10%;
+  bottom: 40%;
+}
+
+.blue-cicle {
+  position: absolute;
+  z-index: -1;
+  left: 20%;
+  bottom: 18%;
+}
+
+.orange-circle {
+  position: absolute;
+  z-index: -1;
+  right: 10%;
+  bottom: 0%;
+}
+
+#Ricky {
+  padding-top: 5rem;
+  z-index: 100;
+}
+
+@-webkit-keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: aqua;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: aqua;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+  animation-direction: reverse;
+  -webkit-transition: linear;
+  transition: linear;
+}
+
+#develop {
+  background-color: black;
+  background-image: url(/img/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style.css.map */
